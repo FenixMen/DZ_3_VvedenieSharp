@@ -21,10 +21,7 @@ namespace DZ_3_VvedenieSharp
 
             for (int i = 0; i < myArray.GetLength(0); i++)
             {
-                for (int j = 0; j < myArray.GetLength(1); j++)
-                {
-                    Console.WriteLine($"Индекс {i},{j} = {myArray[i, j]}");
-                }
+                Console.WriteLine($"Индекс {i},{i} = {myArray[i, i]}");
 
             }
 
